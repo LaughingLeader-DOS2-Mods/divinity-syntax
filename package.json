@@ -8,13 +8,13 @@
 	"icon": "images/vscode-divinitystats-icon.png",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/LaughingLeader-DOS2-Mods/divinity-stats-languageserver"
+		"url": "https://github.com/LaughingLeader-DOS2-Mods/divinity-syntax"
 	},
 	"publisher": "Languages",
 	"categories": [],
 	"keywords": [
-		"Larian",
-		"Divinity Engine",
+		"Divinity: Original Sin 2",
+		"Behavior Scripting",
 		"Stats"
 	],
 	"engines": {
@@ -32,6 +32,7 @@
 					"**/Stats/Generated/*.txt",
 					"**/Stats/Generated/Data/*.txt"
 				],
+				"extensions": [".txt"],
 				"configuration": "./syntaxes/divinity-stats.language-configuration.json"
 			},
 			{
